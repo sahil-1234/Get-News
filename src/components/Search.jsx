@@ -22,7 +22,7 @@ const Search = (props) => {
                 setarticles(parsedData.response.docs);
             })();
         }
-        //eslint-disable-next-line
+        
     }, [query])
 
 
