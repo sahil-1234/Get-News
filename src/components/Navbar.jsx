@@ -125,8 +125,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-
-      {/* Custom CSS to make offcanvas sidebar transparent */}
+      
       <style jsx>{`
         .offcanvas-start {
           background-color: transparent;
