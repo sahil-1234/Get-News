@@ -9,8 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Sofia Sans', sans-serif;
-  background-color: #f8f9fa; /* Set base background color */
-  color: #212529; /* Set text color to dark */
+  background-color: #f8f9fa; 
+  color: #212529; 
 }
 
 code {
@@ -44,7 +44,7 @@ code {
   font-family: 'Merriweather', serif;
 }
 
-/* Offcanvas Navigation Styles */
+
 
 .offcanvas-start {
   position: fixed;
@@ -56,8 +56,8 @@ code {
   flex-direction: column;
   max-width: 320px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
-  border-right: 1px solid #dee2e6; /* Border on the right for separation */
+  background-color: rgba(255, 255, 255, 0.95); 
+  border-right: 1px solid #dee2e6; 
   overflow-y: auto;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
